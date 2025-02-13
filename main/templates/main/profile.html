@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class=" container-fluid">
+    <div class="row m-2">
+        <div class="col-2 p-0 position-relative ">
+            <h1>logo</h1>
+            <ul class="m-0 p-0 position-absolute top-50 translate-middle-y">
+                <li><i class="fa-solid fa-house m-2 "></i>Home</li>
+                <li><i class="fa-solid fa-money-check-dollar m-2 "></i>Transaction History</li>
+                <li>About</li>
+            </ul>
+            <a href="" class="position-absolute bottom-0">email</a>
+        </div>
+        <div class="col-7 p-0">
+            <div class="desc">
+                <h1>Welcome man</h1>
+                <p>Ascess and manage your account efficiently</p>
+                <div class="balance">
+                    <div class="donought">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                    <div class="amount ">
+                        <p>Total current balance</p>
+                        <p class="fs-1">300$</p>
+                    </div>
+                   
+                </div>
+                <div class="transaction">
+                    <p>Recent Transaction</p>
+                </div>
+
+            </div>
+            
+
+        </div>
+        <div class="col-3 p-0">
+            <h1>profile</h1>
+            
+        </div>
+    </div>
+  </div>
+{% endblock content %}
