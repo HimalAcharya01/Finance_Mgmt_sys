@@ -11,6 +11,7 @@ def index(request):
 @login_required(login_url='login')
 def home(request):
     user=request.user
+   
     contex={
         'user':user
 
